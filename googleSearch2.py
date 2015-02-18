@@ -8,7 +8,7 @@ import urlparse
 listURLComplete=[]
 listURLpartial=[]
 
-myfile =open("output/c8.csv","w+")
+myfile =open("c8.csv","w+")
 myfile.close()
 
 
@@ -93,7 +93,7 @@ def calculo(url):
 
 
 sys.setrecursionlimit(3000)
-myfile =open("output/c8.csv","a") 
+myfile =open("c8.csv","a") 
 urlRoot='www.threesl'
 print("----------------------START---------------------------")
 myfile.write("Total"+","+str(calculo('http://www.threesl.com')))
